@@ -12,7 +12,7 @@ const forecast=(latitude,longitude,callback)=>
      }
      else
      {
- callback(undefined,body.current.weather_descriptions[0] +'. It is '+ body.current.temperature +' degrees. But it feelslike ' + body.current.feelslike+' degress out.' )
+ callback(undefined,body.current.weather_descriptions[0] +'. It is '+ body.current.temperature +' degrees. But it feelslike ' + body.current.feelslike+' degress out.The humidity is '+ body.current.humidity+' %.' )
      }
  }
      )
