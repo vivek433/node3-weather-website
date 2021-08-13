@@ -38,8 +38,9 @@ app.use(express.static(publicDirectoryPath))
  {
     res.render('help',
     {
-        title:'HELP ME',
-        name:'Vivek kumar Pandey'
+        title:'HELP',
+        name:'Vivek kumar Pandey',
+        message:'For any help kindly contact me at my email'
     })
  })
 app.get('/weather',(req,res)=>
@@ -84,5 +85,5 @@ app.get('*',(req,res)=>
 
 app.listen(port,()=>
 {
-    console.log("server is up on"+ port)
+    console.log("server is up on "+ port)
 })

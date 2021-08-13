@@ -8,6 +8,9 @@ body
     display: flex;
     flex-direction: column;
     min-height:100vh;
+    background-image:url('https://media.giphy.com/media/l41Yq6xnFirZUUDv2/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 footer
 {
@@ -35,19 +38,23 @@ header a
 {
     width:250px;
     height:250px;
+    
 }
+
 .main-content
 {flex-grow:1;
  
 }
 input{
     border:1px solid #cccccc;
-    padding:8px;
+    padding:16px;
+    opacity:0.5;
 }
 button{
     cursor:pointer;
     border: 1px solid #888888;
     background: #888888;
     color:white;
-    padding:8px;
+    padding:16px;
+    opacity:0.5;
 }
